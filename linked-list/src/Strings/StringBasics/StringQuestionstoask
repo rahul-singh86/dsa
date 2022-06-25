@@ -1,0 +1,19 @@
+Approach to Answer Questions
+
+1.  Ask for the example
+    1. Which Data Structure you want output in for eg HashMap ArrayList String Set integer list Arrays CharArray
+2.  Understand based on diff test cases like
+        1. null check
+        2. empty String
+        3. Spaces Only
+        4. Numeric Only
+        5. With Special Characters
+        6. With Spaces in Between words or Characters
+        7. Spaces in Start and End of the Word
+3.  Explain the TestCases to the Interviewer and get confirmation on which ones are valid or inscope
+4.  Explain the Algorithm before starting to write the code
+5.  Explain Time and Space Complexity(if ur comfortable otherwise it can backfire)
+6.  Code with proper syntax and variable names should be proper and making sense
+7.  Exception handling should be done specially in strings it can be done by taking string as null
+      1. Always make sure null value scenario should be taken care in the exception catch block
+8.  Garbage Collection - System.gc---> make sure to add in the end of main method just incase.

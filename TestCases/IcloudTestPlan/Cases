@@ -1,0 +1,121 @@
+
+
+
+iCloud Credentials Before Running Your App
+___________________________________________
+1)SignIn Capability in IOS or IPAD OS Devices with Apple UserID /password and enable icloud drive
+2)Validate it enables reading from—and writing to—users’ own private and shared databases/Containers and not public database/containers
+3)Checking Containers Logs
+4)Token Validation
+
+Localization/Internatiolisation
+
+1) iCloud+ plans and pricing --> iCloud+ with 50GB storage/iCloud+ with 200GB storage and iCloud+ with 2TB storage
+2) North America, South America, Latin America, and the Caribbean or Asia Pacific Pricings
+3) Subscription Models
+4) Taxes included in Subscription or not? Some states with no tax some with tax
+5) Accepted payment methods Credit/Debit or Apple Account Balance
+6) Countries where local currencies are not supported Default payment in US Dollars
+7) icloud operation in CHINA MainLand?
+
+Sharing with Family
+
+1)Enabling Family Sharing in Iclould Account upto 5 members
+2)Extending the storage with Family Enabled Account
+3)Switch Account from Family to Indi or Indi to Family
+4)Use Diff Devices to Access Family Accounts and Edit the documents Simuntantelsly
+5)Storage Exceeds Plan Limit and trying to uplload new documents?
+
+DOwngrade/Cancel icloud Account
+1) Downgrade from Higher Capacity to lower with subscription in place will be effective when current biling date ends
+2) Trying on Different OS with UI Navigation
+3) Trying via Windows Devices like Window 10
+4) Storage exceeds current subscription plan? Information would be lost or will not be synched.
+
+Security
+1)2FA Authentication
+2)End to End Encyption a Min of 128 BIT AES Encyption for all Data Types like Photos Reminders etc
+3)E2E based on Apple ID and Passcode on all devices setup
+4)Based on Key or Token
+
+
+Test for DataBackup/restore
+_______________________________
+
+1) App Generated Data or User Data Restore in iCloud or DataBackup Capability
+
+
+Test in Production  or Development Env
+________________________________________
+1)Initially, test your Cloud app in the development or production environment on designated test devices.
+2)Later upload your iOS or tvOS app to iTunes Connect and test your app using the production environment.Invite Internal and External Testers to Test your App
+
+
+Take Latency into Account
+__________________________
+
+1) When testing, don’t expect changes to instantly propagate from one device to another.
+
+
+Monitor Your App’s Network Traffic
+_____________________________________
+
+ a)Keep an eye on network activity while testing your app,checking for undue amounts of network traffic
+ b)If your app’s network traffic seems excessive, look for optimizations in your app design.
+
+
+Use Two Devices to Test Document Conflicts : set up two devices to be connected to a single iCloud account
+__________________________________________
+
+TESTCASE 1 : To test document version conflicts with one device offline
+
+ On device 1, create and open a new document using your app, and then open the document on device 2.
+
+ The document is now open on both devices.
+
+ On device 1, turn on airplane mode and then edit the document.
+
+ On device 2 (which is still online), edit the document as well.
+
+ On device 1, turn off airplane mode.
+
+ On each device, check whether the conflict resolution behavior is as you intend it to be.
+
+ TESTCASE 2: To test document version conflicts with two devices offline
+
+ On device 1, create and open a new document using your app, then open the document on device 2.
+
+ The document is now open on both devices.
+
+ Turn on airplane mode on both devices, then edit the document on both devices.
+
+ Try varying this procedure by finishing your changes on the two devices at the same time or at different times.
+
+ On both devices, turn off airplane mode.
+
+ For this step as well, try varying this procedure by turning off airplane mode at the same time or at different times for the two devices.
+
+ On each device, check whether the conflict resolution behavior is as you intend it to be.
+
+ TESTCASE 3 :To test forward and backward compatibility of your document format
+
+ Install the oldest supported version of your app on device 1; install the newest version on device 2.
+
+ Create a document on each device. Allow enough time to elapse so that each doc appears on the other device.
+
+ Open each document on the device that was not used to create it. Or, in the case of a version mismatch in which you do not support opening, ensure that the behavior is as you intend it to be. Check for issues.
+
+ TESTCASE 4 :To test document management
+
+ Save a document to iCloud, then open that document on two devices.
+
+ Using device 1, rename (or, alternatively, delete) the document.
+
+ Check on device 2 whether the behavior is as you intend it to be.
+
+
+
+
+
+
+

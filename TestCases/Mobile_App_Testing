@@ -1,0 +1,131 @@
+Mobile application testing is a procedure to test mobile applications for usability, functional, and consistency glitches.
+
+Mobile application testing is very different from software testing and web testing. There are a few specifics that you should consider before performing mobile application testing:
+
+1)Screen resolution
+2)Turning on/off GPS
+3)Screen orientation (landscape, portrait)
+4)Different devices’ manufacturers
+5)OSs
+6)Type of mobile application
+
+Types of Mobile Application
+
+1)Mobile web applications: These are the web pages that you open through the mobile browser.
+2)Native Apps: These are the applications that are developed for one particular platform. (iOS, Android, Windows 10 M0bile, Tizen, BlackBerry).
+3)Hybrid: It is an amalgamation of mobile web app and Native App.
+
+TEST STRATEGY
+1)Selection of the device
+    - Research for the most widely held and used mobile in the market.
+    - Look out for the mobile with different screen resolutions.
+    - Select the mobile with a different OS.
+    - Don’t underestimate features like compatibility, memory size, connectivity, etc. and pay good attention to them.
+
+2)Emulators or Simulators?
+    - An emulator is the original device replacement that allows you to run applications on your gadget without being able to modify them.
+    - simulator doesn’t imitate mobile’s hardware but can set up the analogous environment as of your original mobile’s OS
+
+3)Cloud-based testing of the mobile application
+    - Allowing run mobile devices to run on several systems and networks, cloud-based testing helps to get over the drawbacks of simulators and real devices.
+
+Stages of Mobile application testing
+
+   1)DOCUMENTATION PHASE - Analyzing the Requirments UI/UX for the same
+   2)FUNCTIONAL TESTING - need to be done keeping below things in mind :-
+
+    a)Business functionality of your app like banking, social networks, ordering and delivery of food, education, tickets, the game industry, etc.
+    b)Target audience like companies, students, entrepreneurs, etc.
+    c)Distribution channels like Google Play, direct delivery, App Store, etc.
+
+    The basic validations that you need to test in functional testing are:
+
+    a)Installing and running the application
+    b)Fields testing
+    c)Business functionalities testing
+    d)Interruptions testing
+    e)Constant users feedback testing
+    f)Update testing
+    g)Device resources testing
+
+    3)USABILITY TESTING- ensures that your application offers convenient browsing to your customers and creates an intuitive interface that abides by industry standards
+
+    a)Satisfaction
+    b)Efficiency
+    c)Effectiveness
+
+    4)UI (User Interface) TESTING
+
+    5)Compatibility (Configuration) testing :-Compatibility (Configuration) testing validates the optimal performance of your application on different devices based on their size, screen resolution, version, hardware, etc. Compatibility testing also takes care of
+    it takes care of below configuration :-
+    a)OS Configuration
+    b)Browser Configuration
+    c)Database Configuration
+    d)Device Configuration
+    e)Network Configuration
+
+    it can be divided onto :-
+
+    1)Cross-platform testing: Testing your mobile application compatibility with different operating systems: Windows, iOS, Android, and BlackBerry, etc.
+    2)Cross-browser testing:    Testing your mobile application compatibility in different browsers Google Chrome, Mozilla Firefox, Opera Mini, etc.
+    3)Database testing:    Testing your mobile application compatibility in different database configurations: DB2, Oracle, MSSQL Server, MySql, Sybase.
+    4)Device Configuration testing:  Testing your mobile application compatibility on different devices based on
+      a)Device type: smartphone, tablet, etc.
+      b)Device configuration: processor type, RAM, battery capacity, screen resolution, etc.
+    5)Network configuration testing:   Testing your mobile application compatibility in different network configurations (TDMA, GSM) and standards (2G, 3G, 4G).
+
+   6)PERFORMANCE TESTING :- helps you test your application reaction and constancy under the specific workload.
+       a)Load Testing: It is done to check the application’s behavior under normal and extreme loads.
+       b)Stress Testing: It is done to test the application’s ability to sustain stress. It ensures that your application is capable to bear undue stress.
+       c)Stability Testing: It tests if your application can work well for a longer period within normal loads.
+       d)Volume Testing: It is conducted to test your application’s performance when subjected to a huge volume of data.
+       e)Concurrency testing: It tests the performance of your application when multiple users are logged in.
+
+   7)SECURITY TESTING:-Security testing validates the security features of your application. It also analyzes the risks of application hackers, protection, viruses, and unauthorized access to extremely sensitive data.
+
+   8)RECOVERY TESTING:-Recovery testing tests the ability of your application to withstand and successfully recover from possible and potential failures caused by software issues, hardware failures, or communication problems.
+
+   9)LOCALIZATION TESTING:-Localization testing tests the adaptability of your application for a specific target audience based on cultural specifics.
+
+   10)PATCH TESTING:-Related to patch due to bug
+    a)ReTesting-After Code/Bug Fix
+    b)Regression Testing- Retesting due to some external changes impacting ur change/code
+
+   11)BETA TESTING - Done on Real devices in Prod like Environment to check all E2E Behaviour
+    1)A number of testing participants
+    2)Testing duration
+    3)Shipping
+    4)Demographic coverage
+    5)Testing costs
+
+    12)CERTIFICATION TESTING :- Done to make sure all the SOW Points are covered as per agreement also
+    your application meets the standards, licensing agreements, terms of use and requirements of stores like the App Store, Google Play, and Windows Phone.
+
+
+    CHALLENGES :- Challenges of mobile application testing
+    1)Testing approach based on device
+    2)Availability of multiple mobile user interfaces
+    3)Greater security issues.
+    4)Time constraint to market app
+    5)Constantly changing environment and usage pattern of mobile phones
+    6)Testing of touch screens is more complicated.
+    7)User Experience & Issues with App Performance
+
+
+Popular Mobile app testing tools
+For functionality testing:  Appium, Selendroid, Robotium, Ranorex.
+For usability testing: Reflector, User Zoom,  Loop.
+For mobile application interface testing: iMacros, FitNesse, Jubula, Coded UI,  LoadUI.
+For compatibility testing:  CrossBrowserTesting, BrowserStack,  Browsera, Litmus,  Rational ClearCase,  Ghostlab.
+For performance testing: Apteligent, NeoLoad ,  New Relic.
+For Security Testing: OWASP Zed Attack Proxy, Retina CS Community, Google Nogotofail, Veracode,  and SQL Map.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+ASSUMPTION :-  This is Vending Machine for Cold Drinks Namely Coke Diet Coke , Pepsi and Snacks and it is installed in Malls etc and uses Cash and Credit/Debit Cards for Payments
+               It has Keypad for Selection and it has 3 Rows and 3 Column for Items insertion/assembly. It has cold temperature maintained inside to keep items fresh(ac) and there is one
+               way only to get items dropped and picked by user . It has a size of 5 ft 10 inches tall and buttons are located at a height so that all people including disabled / tall users are able to use it without and issues
+               it is switched or operated with standard power outlet with certain voltage requirments (possibly) us outlets only and 100-200 v.
+               it has a good recovery mechanism if power goes down and comes up(fluctuating power) and it is insulated so there is no current in the body
+               it comes in standard colors and sizes if someone wants to order it may be assume (red and black color) so there is no customisation
+               it is connected via payment apis for transactions over the internt for all the payments done
+               it accepts only 4 types of payment networks visa, mc, discover and diners and accepts coin and cash demoninations(1 dolloar coin, 2 dollar and 50 cents ) and cash from 1- 20 dollars
+               it has ability to cancel the transaction and also return cash/extra or coin.
+               if its not connected / or working it has a user friendly message displayed on screen for users to know its down
+               Installation Delivery of Machines are easy only power and initial configuration needed via terminal
+               Refill is easy to operate/done via back locker or keypad at the back .side door (can be done by users/owners)
+               if OS gets stck it can ve restarted by back button(press it for 5 secs) and it should be back
+               it is Water proof and can withstand heat temp upto 150 Farenthite Cold Temp upto -20 with no fog on the screen
+
+
+TESTCASES
+
+FUNCITIONAL TESTS
+    POSITIVE
+        1) Press Button for each item provide exact denomination and make sure current item is dispended
+        2) Press Button for each item provide card(swipe/nfc) for each network type and make sure item is dispended and correct amt is charged on the card
+        3) Ask for Cash / Payment is after item selection.
+
+
+    NEGATIVE
+        1) Press Button but do no provide the cash/coin or provide partial cash /coin or card
+        2) Press Button for item not available and check if machine asks. accepts the money/payment
+        3) Press Button and provide card with insufficient funds and check if item is dispens
+        4) Press bytton and provide payment and plug thr power off and power it on and see if item is dispened
+
+PERFORMANCE TESTS
+    1) Press Buttons for multiple hours and see if its working fine
+    2) Keep Putting the coin after u select / press the button and see for what amt it acceps the coin
+    3) Keep Putting the coin (extra) and select item and see if all coins(extra) are returned back
+    4) Shake the Machine and see if user is able to dispense items
+    5) Put Machine in Cold Temp as per specification(or below it) to see what is minium working temp (do functional tests in that temp)
+    6) Put Machine in Rain / Heavy Water and see if it works fine
+    7) Put Machine in Hot Teap(same point as high temp mentioned) and then extra above it to see if it works fine or not
+
+LOCALISATION TESTS
+
+   1) Is this only operated in US Locations
+   2) Try Shipping it to India and see if it works?
+   3) Try with multiple Volages 100-200
+
+SECURITY TESTS
+  1) Check if its insulated from current or its outer body has current for user
+  2) Check if it handles extreme weather and doesnt cause injuries to its user
+  3) Check if its button are good to operate doesnt cause issue to users finger
+  4) Check if there is no damage to item dispensed
+
+
+ACCESSIBILITY TESTS
+    1) Validate the interior and exterior colors of the machine
+    2) Validate the button suitable for all types of fingers
+    3) Validate height of machine is easy to operate for all types of humans and even disabled people
+
+
+INSTALLTION TESTS
+
+1) Validate its easy to install machine and needs just power output works in all types across 50 states
+2) Validate its easy to refill the vending machine with all types of bottle sizes
+3) Check if its movable
+4) Am I able to reach the drop box/coin collection/type the keypad, is it too high or low for a short person/disabled person
+
+
+USABILITY TESTS
+1)Display Screen
+  -text size
+  -language
+  -dimension
+  -pixels
+
+2)Keypad
+- Press a number for long time
+- press random numbers
+- press all number at a time
+-press a button and clear/delete
+
+3)Visibility
+-all products are visible
+-arrangement
+-lightening inside machine
+-night mode/ day time mode
+
+Exception test cases:
+• If power failure happens
+• If item date expires
+• System fails (internal, like wiring problems)
+Error handling test cases:
+• Temperature changes outside
+• Machine was moved

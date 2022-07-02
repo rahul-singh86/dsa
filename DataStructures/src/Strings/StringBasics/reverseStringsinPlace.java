@@ -50,7 +50,7 @@ public class reverseStringsinPlace {
         schar=s.toCharArray();
         int start=0;
         int end=s.length()-1;
-        System.out.println(Arrays.toString(schar));
+//        System.out.println(Arrays.toString(schar));
         while(start<=end){
             char temp=s.charAt(start);
             schar[start]=schar[end];

@@ -3,6 +3,7 @@ package Arrays;
 import java.util.Arrays;
 
 public class MergeSort {
+
 //[9,8,7,1,2,4] so mid is 3 ==> [9,8,7,1] and [2,4]
 
     public static void main(String[] args) {

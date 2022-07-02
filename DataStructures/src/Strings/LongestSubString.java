@@ -4,7 +4,8 @@ import java.util.HashMap;
 
 public class LongestSubString {
 
-    //abcdabcdbb -->abcd
+    //abcdabcdbb -->abcd without repeated characters
+
     public static void main(String[] args) {
         String test_case1="abcdabcdebb";
         String test_case2="abcdefbcded";
@@ -13,6 +14,7 @@ public class LongestSubString {
         System.out.println(longestSubStringHashMap(test_case2));
     }
 
+    //Optimised Solution
 
     public static int longestSubStringHashMap(String s){
 

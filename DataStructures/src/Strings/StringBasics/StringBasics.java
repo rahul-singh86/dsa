@@ -59,7 +59,7 @@ public class StringBasics {
         }
 
         System.out.println('A'-'a');
-
+        System.out.println("Get number from 0-26 for small chars by subtracting from a for eg b-a as "+('b'-'a'));
     }
 
 }

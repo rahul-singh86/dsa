@@ -1,0 +1,32 @@
+LOCALIZATION TESTING
+_____________________
+
+Testing UI for specific Location is called Localization Tesing
+
+TESTCASES
+
+* Time and Date are Formatted as per Target Region
+* Phone Numbers are Formatted as per Target Region
+* Language/KeyBoards are appearing as per Target Region
+* Current Website Obeys Regional Rules and Laws
+* Validation Messages and Error Messages are alinged properly
+* Generated Builds Include all Files
+* Currency Value as per Target Region
+* Documentation as per Target Region
+* Text Content Layout Properly Aligned
+
+Broadly its Categorized in four Category
+
+* LOCALIZATION INTERFACE
+* LOCALIZED CONTENT
+* SPECIFIC LANGUAGE
+* HARDWARE COMPATIBLITY
+
+Selenium Webdriver can be used to perform UI Localisation Testing by Using
+Different Property File where Values will be for diff language for eg
+
+1)eng.properties
+2)french.properties
+3)chinese.properties
+
+Based on Lang Provided content of xpath etc can be fetched from properties files

@@ -1,0 +1,39 @@
+ACCESIBILITY TESTING
+_____________________
+
+DEFINITION : TESTING DONE TO MAKE UI/WEBSITE ACCESSIBLE TO ALL IS CALLED ACCESIBILITY TESTING
+
+FOR E.G
+* BLIND OR VISION PROBLEM
+* COLOR BLINDNESS
+* DEAFNESS
+* MOTOR ETC
+
+a) UI APPS have DOM HTML which is basically a dom tree
+b) DOM with Javascript basically paints and presents the nice UI to users with css
+c) DOM is transformed into accessibility tree
+d) Accessibility tree nodes are read from tools(VoiceOver) or native apis for speech recognition(text to speech) convertion for user
+e) User Clicks Space or any key,VoiceOver Calls accessibilityPerform() methods, Click() event is then routed to UI Element
+f) Normally its called a screen reader and its part of assistive technology
+
+AUTOMATION
+a) We can use Selenium Webdriver to Automate Accessibility Testing as well
+b) Library used for the same is called AXE_SELENIUM_JAVA
+c) User needs to add axe.min.js in resource folder and provide its path as scriptUrl .
+d) Create JSON OBject using new AXE.Builder().analyze method.
+e) Convert it into jsonArray and get "violation" as json array element.
+f) if violation size is 0 means no violation else print the output
+
+TYPE of TESTCASES FOR ACCESIBLITY TESTING
+
+* Testing or checking the labels
+* Text Contrast or ratio between text/images or background color
+* Hit area size - Area designated for user extension
+* View Hierary of UI - Determine How easy it is for UI to Navigate
+* Dynamic Font Size - Option for User to Increase Font Size as per there Need
+
+TOOLS
+$ Perfecto
+$ AXE
+$ INFOCUS
+$ WEBXM
